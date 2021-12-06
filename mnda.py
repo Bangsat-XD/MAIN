@@ -102,30 +102,30 @@ def hasil(ok,cp):
         print '\n\n [%s+%s] total OK : %s%s%s'%(O,N,H,str(len(ok)),N)
         print ' [%s+%s] total CP : %s%s%s'%(O,N,K,str(len(cp)),N);exit()
     else:
-        print '\n\n [%s!%s] opshh kamu tidak mendapatkan hasil :('%(M,N);exit()
+        print '\n\n [%s!%s] Opshh You Are Not Getting Results :('%(M,N);exit()
 
 #masuk token
 def bangsatxd():
     os.system('clear')
-    print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
+    print (' [%s*%s] This Tool Uses Facebook Token Login.\n %s*%s Do You Already Know How To Get Facebook Token?\n %s*%s Type %sOpen%s To Get Facebook Token.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
-        print '\n%s *%s login Facebook Dikiwi broswer terlebih dahulu'%(B,N);time.sleep(5)
-        print '%s *%s Cara Mengambil Token Ada di %sYOUTUBE'%(B,N,H);time.sleep(5)
-        print '%s *%s Simak Baik Baik %sCARANYA'%(B,N,H);time.sleep(5)
-        print '%s *%s Pahami %sStep by Stepnya%s Anda Paham %sTONTON%s Dengan Teliti.'%(B,N,H,N,H,N);time.sleep(5)
+        print '\n%s *%s Login Facebook In Kiwi Browser First'%(B,N);time.sleep(2)
+        print '%s *%s How To Take Token Is In %sYOUTUBE'%(B,N,H);time.sleep(2)
+        print '%s *%s Listen Good %sTHE METHOD'%(B,N,H);time.sleep(2)
+        print '%s *%s Understanding %sStep by Step%s You understand %sWATCH%s Carefully.'%(B,N,H,N,H,N);time.sleep(2)
         raw_input(' [%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ : '%(O,N))
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         bangsatxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
-        print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(5)
+        print '\n\n %s*%s WELCOME %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(5)
         open('.memek.txt', 'w').write(kontol)
         raw_input(' [%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ : '%(O,N));wuhan(kontol)
         bangsat_xd()
     except KeyError:
-        print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(5);bangsatxd()
+        print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);bangsatxd()
 
 ### ORANG GANTENG ###
 def bangsat_xd():
