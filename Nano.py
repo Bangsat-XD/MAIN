@@ -149,7 +149,7 @@ def moch_yayan():
     print ' [%s2%s]◍➤ Dump Id Dari Teman Publik'%(O,N);time.sleep(0.03)
     print ' [%s3%s]◍➤ Dump Id Dari Total Followers'%(O,N);time.sleep(0.03)
     print ' [%s4%s]◍➤ Dump Id Dari Like Postingan'%(O,N);time.sleep(0.03)
-    print ' [%s5%s]◍➤ Mulai Crack'%(O,N);time.sleep(0.03)
+    print ' [%s5%s]◍➤ \x1b[1;92mMulai Crack\x1b[1;97m'%(O,N);time.sleep(0.03)
     print ' [%s6%s]◍➤ Check Ingformasi Akun Fb'%(O,N);time.sleep(0.03)
     print ' [%s7%s]◍➤ Lihat Hasil Crack'%(O,N);time.sleep(0.03)
     print ' [%s8%s]◍➤ Settings User Agent'%(O,N);time.sleep(0.03)
