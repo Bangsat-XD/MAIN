@@ -107,13 +107,13 @@ def hasil(ok,cp):
 #masuk token
 def bangsatxd():
     os.system('clear')
-    print (' [%s*%s] This Tool Uses Facebook Token Login.\n %s*%s Do You Already Know How To Get Facebook Token?\n %s*%s Type %sOpen%s To Get Facebook Token.'%(O,N,O,N,O,N,H,N))
+    print (' [%s◍➤%s] This Tool Uses Facebook Token Login.\n %s*%s Do You Already Know How To Get Facebook Token?\n %s*%s Type %sOpen%s To Get Facebook Token.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
-        print '\n%s *%s Login Facebook In Kiwi Browser First'%(B,N);time.sleep(2)
-        print '%s *%s How To Take Token Is In %sYOUTUBE'%(B,N,H);time.sleep(2)
-        print '%s *%s Listen Good %sTHE METHOD'%(B,N,H);time.sleep(2)
-        print '%s *%s Understanding %sStep by Step%s You understand %sWATCH%s Carefully.'%(B,N,H,N,H,N);time.sleep(2)
+        print '\n%s ◍➤%s Login Facebook In Kiwi Browser First'%(B,N);time.sleep(2)
+        print '%s ◍➤%s How To Take Token Is In %sYOUTUBE'%(B,N,H);time.sleep(2)
+        print '%s ◍➤%s Listen Good %sTHE METHOD'%(B,N,H);time.sleep(2)
+        print '%s ◍➤%s Understanding %sStep by Step%s You understand %sWATCH%s Carefully.'%(B,N,H,N,H,N);time.sleep(2)
         raw_input(' [%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ : '%(O,N))
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         bangsatxd()
