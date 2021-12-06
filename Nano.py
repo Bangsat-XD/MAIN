@@ -155,7 +155,7 @@ def moch_yayan():
     print ' [%s8%s]\x1b[1;96m◍➤\x1b[1;97m Settings User Agent'%(O,N);time.sleep(0.03)
     print ' [%s9%s]\x1b[1;96m◍➤\x1b[1;97m Info %sScript%s'%(O,N,O,N);time.sleep(0.03)
     print ' [%s0%s]\x1b[1;96m◍➤\x1b[1;97m Logout (%sHapus Token%s)'%(M,N,M,N);time.sleep(0.03)
-    pepek = raw_input('\n [\x1b[1;92m◍➤\x1b[1;97m] Menu : ')
+    pepek = raw_input('\n [\x1b[1;96m◍➤\x1b[1;97m] Menu : ')
     if pepek == '':
         print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
