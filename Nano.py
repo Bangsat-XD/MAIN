@@ -153,7 +153,7 @@ def moch_yayan():
     print ' [%s6%s]◍➤ Check Informasi Akun Fb'%(O,N);time.sleep(0.03)
     print ' [%s7%s]◍➤ Lihat Hasil Crack'%(O,N);time.sleep(0.03)
     print ' [%s8%s]◍➤ Settings User Agent'%(O,N);time.sleep(0.03)
-    print ' [%s9%s]◍➤ Info \x1b[1;92mScript\x1b[1;97m'%(O,N,O,N);time.sleep(0.03)
+    print ' [%s9%s]◍➤ Info %sScript%s'%(O,N,O,N);time.sleep(0.03)
     print ' [%s0%s]◍➤ Logout (%sHapus Token%s)'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [\x1b[1;92m◍➤\x1b[1;97m] Menu : ')
     if pepek == '':
