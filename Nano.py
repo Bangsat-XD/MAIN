@@ -103,10 +103,6 @@ def yayanxd():
     print (' %s◍➤%s Tools Ini Menggunakan Login Token Facebook.\n %s◍➤%s Apakah Kamu Sudah Tau Cara Mendapatkan Token Facebook?\n %s◍➤%s Ketik %sOpen%s Untuk Mendapatkan Token Facebook.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
-        print '\n%s ◍➤%s Login Di Kiwi Browser Terlebih Dahulu'%(B,N);time.sleep(2)
-        print '%s ◍➤%s Tutorial Ada Di %YOUTUBE'%(B,N,H);time.sleep(2)
-        print '%s ◍➤%s Simak Baik Baik. klik %stitik tiga'%(B,N,H);time.sleep(2)
-        print '%s ◍➤%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
         raw_input(' [%s?%s] ☆Tekan Enter☆ ™︻®╤───────═◍➤ : '%(O,N))
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         yayanxd()
