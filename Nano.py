@@ -100,15 +100,23 @@ def hasil(ok,cp):
 #masuk token
 def yayanxd():
     os.system('clear')
-    print (' %s◍➤%s Tools Ini Menggunakan Login Token Facebook.\n %s◍➤%s Apakah Kamu Sudah Tau Cara Mendapatkan Token Facebook?\n %s◍➤%s Ketik %sOpen%s Untuk Mendapatkan Token Facebook.'%(O,N,O,N,O,N,H,N))
-    kontol = raw_input('\n %s[%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ :%s '%(N,M,N,H))
+    print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
+    kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
-        os.system('xdg-open https://youtu.be/bszAm4C5ovE')
+        print '\n%s *%s note! usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
+        print '%s *%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
+        print '%s *%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
+        print '%s *%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
+        raw_input(' %s*%s tekan enter '%(O,N))
+        os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         yayanxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
+        open('.memek.txt', 'w').write(kontol)
+        raw_input(' %s*%s tekan enter '%(O,N));wuhan(kontol)
+        os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         moch_yayan()
     except KeyError:
         print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);yayanxd()
