@@ -110,7 +110,7 @@ def yayanxd():
         print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(2)
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
-        raw_input(' %s*%s ☆Tekan Enter☆ ™︻®╤───────═◍➤ : '%(O,N));wuhan(kontol)
+        raw_input(' %s?%s ☆Tekan Enter☆ ™︻®╤───────═◍➤ : '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         moch_yayan()
     except KeyError:
