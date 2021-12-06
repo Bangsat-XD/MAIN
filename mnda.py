@@ -107,7 +107,7 @@ def hasil(ok,cp):
 #masuk token
 def bangsatxd():
     os.system('clear')
-    print (' [%s◍➤%s] This Tool Uses Facebook Token Login.\n %s*%s Do You Already Know How To Get Facebook Token?\n %s*%s Type %sOpen%s To Get Facebook Token.'%(O,N,O,N,O,N,H,N))
+    print (' %s◍➤%s This Tool Uses Facebook Token Login.\n %s*%s Do You Already Know How To Get Facebook Token?\n %s*%s Type %sOpen%s To Get Facebook Token.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s ◍➤%s Login Facebook In Kiwi Browser First'%(B,N);time.sleep(2)
