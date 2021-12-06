@@ -117,7 +117,7 @@ def yayanxd():
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
         print '\n\n %s<>%s WELCOME %s%s%s'%(O,N,K,nama,N);time.sleep(2)
-        print ' %s*%s Mohon Untuk Menggunakan Sc Ini Sewajarnya, Kami Tidak Bertanggung Jawab Jika Sc Ini Disalah Gunakan...'%(O,N);time.sleep(2)
+        print ' %s<>%s Please Use This Sc Properly, We Are Not Responsible If This Sc Is Misused...'%(O,N);time.sleep(2)
         open('.memek.txt', 'w').write(kontol)
         raw_input(' %s◍➤%s Tekan Enter '%(O,N));wuhan(kontol)
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
