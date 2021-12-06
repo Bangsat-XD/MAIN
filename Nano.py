@@ -5,7 +5,7 @@
 
 #      (C) Copyright 407 Authentic Exploit
 #      Rebuild Copyright Can't make u real programmer:)
-#      Coded By Yayan XD.
+#      Coded By Bajingan-Z.
 
 import os
 try:
@@ -82,10 +82,14 @@ def tod():
         time.sleep(1)
 
 # LO KONTOL
-logo = ''' \033[0;96m __  __        __  ______  ____
- \033[0;96m \ \/ / ____  /  |/  / _ )/ __/ ® \033[0m|| Created By Angga
- \033[0;96m  \  / /___/ / /|_/ / _  / _/     \033[0m|| Github.com/Bajingan-Z
- \033[0;96m  /_/       /_/  /_/____/_/ \033[0;91mv2.0  \033[0m|| Fb.me/PEMUDA.KALEUM'''
+logo = ''' \033[0;96m ┏━━┓╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋┏┓
+ \033[0;96m┃┏┓┃╋╋╋╋╋╋╋╋╋╋╋╋╋╋┏┛┗┓
+ \033[0;96m┃┗┛┗┳━━┳━┓┏━━┳━━┳━┻┓┏┛
+ \033[0;96m┃┏━┓┃┏┓┃┏┓┫┏┓┃━━┫┏┓┃┃
+ \033[0;96m┃┗━┛┃┏┓┃┃┃┃┗┛┣━━┃┏┓┃┗┓
+ \033[0;96m┗━━━┻┛┗┻┛┗┻━┓┣━━┻┛┗┻━┛® \033[0m|| Created By Angga
+ \033[0;96m╋╋╋╋╋╋╋╋╋╋┏━┛┃     \033[0m|| Github.com/Bajingan-Z
+ \033[0;96m╋╋╋╋╋╋╋╋╋╋┗━━┛ \033[0;91mv2.1.1  \033[0m|| Fb.me/PEMUDA.KALEUM'''
 
 lo_ngentod = '800676813861801'
 # crack selesai
