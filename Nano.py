@@ -150,12 +150,12 @@ def moch_yayan():
     print ' [%s3%s]◍➤ Dump Id Dari Total Followers'%(O,N);time.sleep(0.03)
     print ' [%s4%s]◍➤ Dump Id Dari Like Postingan'%(O,N);time.sleep(0.03)
     print ' [%s5%s]◍➤ \x1b[1;92mMulai Crack\x1b[1;97m'%(O,N);time.sleep(0.03)
-    print ' [%s6%s]◍➤ Check Ingformasi Akun Fb'%(O,N);time.sleep(0.03)
+    print ' [%s6%s]◍➤ Check Informasi Akun Fb'%(O,N);time.sleep(0.03)
     print ' [%s7%s]◍➤ Lihat Hasil Crack'%(O,N);time.sleep(0.03)
     print ' [%s8%s]◍➤ Settings User Agent'%(O,N);time.sleep(0.03)
-    print ' [%s9%s]◍➤ Ingfo %sScript%s'%(O,N,O,N);time.sleep(0.03)
+    print ' [%s9%s]◍➤ Info \x1b[1;92mScript\x1b[1;97m'%(O,N,O,N);time.sleep(0.03)
     print ' [%s0%s]◍➤ Logout (%sHapus Token%s)'%(M,N,M,N);time.sleep(0.03)
-    pepek = raw_input('\n [◍➤] Menu : ')
+    pepek = raw_input('\n [\x1b[1;92m◍➤\x1b[1;97m] Menu : ')
     if pepek == '':
         print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
