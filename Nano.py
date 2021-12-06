@@ -600,9 +600,9 @@ class __crack__:
                     break
         elif ___yayanganteng___ in ('T', 't'):
             print '\n [ Pilih Method Login Silahkan Coba Satu² ]\n'
-            print ' [%s1%s]◍➤ Method API (%sFast%s)'%(O,N)
-            print ' [%s2%s]◍➤ Method Mbasic (%sSlow%s)'%(O,N)
-            print ' [%s3%s]◍➤ Method Mobile (%sSuper Slow%s)'%(O,N)
+            print ' [%s1%s]\x1b[1;94m◍➤\x1b[1;97m Method API [\x1b[1;94mFast\x1b[1;97m]'%(O,N)
+            print ' [%s2%s]\x1b[1;94m◍➤\x1b[1;97m Method Mbasic [\x1b[1;94mSlow\x1b[1;97m]'%(O,N)
+            print ' [%s3%s]\x1b[1;94m◍➤\x1b[1;97m Method Mobile [\x1b[1;94mSuper Slow\x1b[1;97m]'%(O,N)
             self.__pler__()
         else:
             print '\n %s[%s×%s] Y/t Juancok!'%(N,M,N);self.plerr()
