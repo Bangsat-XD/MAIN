@@ -114,7 +114,7 @@ def bangsatxd():
         print '%s *%s Cara Mengambil Token Ada di %sYOUTUBE'%(B,N,H);time.sleep(5)
         print '%s *%s Simak Baik Baik %sCARANYA'%(B,N,H);time.sleep(5)
         print '%s *%s Pahami %sStep by Stepnya%s Anda Paham %sTONTON%s Dengan Teliti.'%(B,N,H,N,H,N);time.sleep(5)
-        raw_input(' [%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ '%(O,N))
+        raw_input(' [%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ : '%(O,N))
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         bangsatxd()
     try:
@@ -122,7 +122,7 @@ def bangsatxd():
         print '\n\n %s*%s selamat datang %s%s%s'%(O,N,K,nama,N);time.sleep(5)
         print ' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,N);time.sleep(5)
         open('.memek.txt', 'w').write(kontol)
-        raw_input(' [%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ '%(O,N));wuhan(kontol)
+        raw_input(' [%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ : '%(O,N));wuhan(kontol)
         bangsat_xd()
     except KeyError:
         print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(5);bangsatxd()
