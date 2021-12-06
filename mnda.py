@@ -110,11 +110,11 @@ def bangsatxd():
     print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
-        print '\n%s *%s Usahakan akun tumbal login Dikiwi broswer terlebih dahulu'%(B,N);time.sleep(2)
-        print '%s *%s Full tutorial my %sYoutube'%(B,N,H);time.sleep(2)
-        print '%s *%s Simak Baik Baik Cara Mengambil Token Di %sYoutube'%(B,N,H);time.sleep(2)
-        print '%s *%s Dan Simak %sStep by Stepny%s Anda Paham %sTONTON%s Dengan Teliti.'%(B,N,H,N,H,N);time.sleep(2)
-        raw_input(' %s*%s tekan enter '%(O,N))
+        print '\n%s *%s login Facebook Dikiwi broswer terlebih dahulu'%(B,N);time.sleep(2)
+        print '%s *%s Cara Mengambil Token Ada di %sYOUTUBE'%(B,N,H);time.sleep(2)
+        print '%s *%s Simak Baik Baik %sCARANYA'%(B,N,H);time.sleep(2)
+        print '%s *%s Pahami %sStep by Stepnya%s Anda Paham %sTONTON%s Dengan Teliti.'%(B,N,H,N,H,N);time.sleep(2)
+        raw_input(' %s*%s ☆Enter Token☆ ™︻®╤───────═◍➤ '%(O,N))
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         bangsatxd()
     try:
