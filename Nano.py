@@ -103,7 +103,6 @@ def yayanxd():
     print (' %s◍➤%s Tools Ini Menggunakan Login Token Facebook.\n %s◍➤%s Apakah Kamu Sudah Tau Cara Mendapatkan Token Facebook?\n %s◍➤%s Ketik %sOpen%s Untuk Mendapatkan Token Facebook.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
-        raw_input(' [%s?%s] ☆Tekan Enter☆ ™︻®╤───────═◍➤ : '%(O,N))
         os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         yayanxd()
     try:
