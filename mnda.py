@@ -111,11 +111,11 @@ def bangsatxd():
     kontol = raw_input('\n %s[%s?%s] ☆Enter Token☆ ™︻®╤───────═◍➤ :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s *%s note! usahakan akun tumbal login di kiwi broswer terlebih dahulu'%(B,N);time.sleep(2)
-        print '%s *%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
-        print '%s *%s setelah di alihkan ke google chrome. klik %stitik tiga'%(B,N,H);time.sleep(2)
-        print '%s *%s lalu klik %sCari di Halaman%s Tinggal ketik %sEAAA%s Lalu salin.'%(B,N,H,N,H,N);time.sleep(2)
+        print '%s *%s Full tutorial my %sYoutube'%(B,N,H);time.sleep(2)
+        print '%s *%s Simak Baik Baik Cara Mengambil Token Di %sYoutube'%(B,N,H);time.sleep(2)
+        print '%s *%s Dan Simak %sStep by Stepny%s Anda Paham %sTONTON%s Dengan Teliti Ceog.'%(B,N,H,N,H,N);time.sleep(2)
         raw_input(' %s*%s tekan enter '%(O,N))
-        os.system('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
+        os.system('xdg-open https://youtu.be/bszAm4C5ovE')
         bangsatxd()
     try:
         nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(kontol)).json()['name']
