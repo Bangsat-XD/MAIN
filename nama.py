@@ -39,15 +39,15 @@ ua_galaxys10=('Mozilla/5.0 (Linux; Android 9; SM-G977N) AppleWebKit/537.36 (KHTM
 ua_lenovo=('Mozilla/5.0 (Linux; Android 9; Lenovo TB-8705F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Safari/537.36')
 ua=random.choice([ua_nokia,ua_xiaomi,ua_samsung,ua_macos,ua_vivo,ua_oppo,ua_huawei,ua_redmi4a,ua_vivoy12,ua_nokiax,ua_asus,ua_galaxys10,ua_lenovo])
 
-# Logo
-___logo___ = ("""%s╔══╗───────────────╔╗%s
-║╔╗║──────────────╔╝╚╗%s
-║╚╝╚╦══╦═╗╔══╦══╦═╩╗╔╝─╔═══╗%s
-║╔═╗║╔╗║╔╗╣╔╗║══╣╔╗║╠══╬══║║%s
-║╚═╝║╔╗║║║║╚╝╠══║╔╗║╚╦═╣║══╣%s
-╚═══╩╝╚╩╝╚╩═╗╠══╩╝╚╩═╝─╚═══╝%s
+def logo():
+	print("""╔══╗───────────────╔╗
+║╔╗║──────────────╔╝╚╗
+║╚╝╚╦══╦═╗╔══╦══╦═╩╗╔╝─╔═══╗
+║╔═╗║╔╗║╔╗╣╔╗║══╣╔╗║╠══╬══║║
+║╚═╝║╔╗║║║║╚╝╠══║╔╗║╚╦═╣║══╣
+╚═══╩╝╚╩╝╚╩═╗╠══╩╝╚╩═╝─╚═══╝
 ──────────╔═╝║
-──────────╚══╝"""%(H,H,H,P,P,P))
+──────────╚══╝""")
 
 # Penampung
 loop = 0
