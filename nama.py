@@ -40,7 +40,7 @@ ua_lenovo=('Mozilla/5.0 (Linux; Android 9; Lenovo TB-8705F) AppleWebKit/537.36 (
 ua=random.choice([ua_nokia,ua_xiaomi,ua_samsung,ua_macos,ua_vivo,ua_oppo,ua_huawei,ua_redmi4a,ua_vivoy12,ua_nokiax,ua_asus,ua_galaxys10,ua_lenovo])
 
 # Logo
-___logo___ = ("""%s┏━━┓                        ┏┓┏━┓┏━┓┏┓╋┏┓\n%s┃┏┓┃                      ┏┛┗┫┃┗┛┃┃┃┃┏┛┗┓\n%s┃┗┛┗┳━━┳━┓┏━━┳━━┳━┻┓┏┫┏┓┏┓┣┫┃┣┓┏╋━━┳━┓\n%s┃┏━┓┃┏┓┃┏┓┫┏┓┃━━┫┏┓┃┃┃┃┃┃┃┣┫┃┣┫┃┃┏┓┃┏┓┓\n%s┃┗━┛┃┏┓┃┃┃┃┗┛┣━━┃┏┓┃┗┫┃┃┃┃┃┃┗┫┃┗┫┏┓┃┃┃┃\n%s┗━━━┻┛┗┻┛┗┻━┓┣━━┻┛┗┻━┻┛┗┛┗┻┻━┻┻━┻┛┗┻┛┗┛\n%s                ┏━┛┃\n                ┗━━┛ """%(H,H,P,P))
+___logo___ = ("""%s╔══╗───────────────╔╗\n%s║╔╗║──────────────╔╝╚╗\n%s║╚╝╚╦══╦═╗╔══╦══╦═╩╗╔╝─╔═══╗\n%s║╔═╗║╔╗║╔╗╣╔╗║══╣╔╗║╠══╬══║║\n%s║╚═╝║╔╗║║║║╚╝╠══║╔╗║╚╦═╣║══╣\n%s╚═══╩╝╚╩╝╚╩═╗╠══╩╝╚╩═╝─╚═══╝\n%s──────────╔═╝║\n──────────╚══╝"""%(H,H,H,P,P,P))
 
 # Penampung
 loop = 0
@@ -169,15 +169,15 @@ def ___menu___():
         ___login___()
     except (ConnectionError):
         exit("%s[%s!%s]%s Koneksi Error"%(P,M,P,M))
-    print("\n%s[%s1%s]%s◍➤ Dump ID Publik Masal Acak (2004-2021)"%(H,U,H,P))
-    print("%s[%s2%s]%s◍➤ Dump ID Publik Masal Old (2009-2006)"%(H,U,H,P))
-    print("%s[%s3%s]%s◍➤ Dump ID Publik Masal New (2020-2021)"%(H,U,H,P))
-    print("%s[%s4%s]%s◍➤ Dump ID Publik Very Old (2006-2009)"%(H,U,H,P))
-    print("%s[%s5%s]%s◍➤ Dump ID Follower Old (2015-2006)"%(H,U,H,P))
-    print("%s[%s6%s]%s◍➤ Dump ID Follower New (2021-2020)"%(H,U,H,P))
-    print("%s[%s7%s]%s◍➤ Dump ID Publik Acak (2021-2004)"%(H,U,H,P))
-    print("%s[%s8%s]%s◍➤ Dump ID Publik Old (2006-2015)"%(H,U,H,P))
-    print("%s[%s9%s]%s◍➤ Dump ID Publik New (2021-2020)"%(H,U,H,P))
+    print("\n%s[%s1%s]%s◍➤ Dump ID Publik Masal Acak [ 2004-2021 ]"%(H,U,H,P))
+    print("%s[%s2%s]%s◍➤ Dump ID Publik Masal Old [ 2009-2006 ]"%(H,U,H,P))
+    print("%s[%s3%s]%s◍➤ Dump ID Publik Masal New [ 2020-2021 ]"%(H,U,H,P))
+    print("%s[%s4%s]%s◍➤ Dump ID Publik Very Old [ 2006-2009 ]"%(H,U,H,P))
+    print("%s[%s5%s]%s◍➤ Dump ID Follower Old [ 2015-2006 ]"%(H,U,H,P))
+    print("%s[%s6%s]%s◍➤ Dump ID Follower New [ 2021-2020 ]"%(H,U,H,P))
+    print("%s[%s7%s]%s◍➤ Dump ID Publik Acak [ 2021-2004 ]"%(H,U,H,P))
+    print("%s[%s8%s]%s◍➤ Dump ID Publik Old [ 2006-2015 ]"%(H,U,H,P))
+    print("%s[%s9%s]%s◍➤ Dump ID Publik New [ 2021-2020 ]"%(H,U,H,P))
     print("%s[%s10%s]%s◍➤ Start Crack %s[%sFast%s/%sSlow%s]"%(B,U,B,P,K,H,K,H,K))
     print("%s[%s11%s]%s◍➤ Lihat Hasil Crack"%(H,U,H,P))
     print("%s[%s12%s]%s◍➤ Laporkan Bug"%(H,U,H,P))
