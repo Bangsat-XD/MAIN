@@ -40,8 +40,7 @@ ua_lenovo=('Mozilla/5.0 (Linux; Android 9; Lenovo TB-8705F) AppleWebKit/537.36 (
 ua=random.choice([ua_nokia,ua_xiaomi,ua_samsung,ua_macos,ua_vivo,ua_oppo,ua_huawei,ua_redmi4a,ua_vivoy12,ua_nokiax,ua_asus,ua_galaxys10,ua_lenovo])
 
 # Logo
-___logo___ = ("""%s ____\n|  _ \ _   _ _ __ ___  _ __\n%s| | | | | | | '_ ` _ \| '_ \ \n%s| |_| | |_| | | | | | | |_) |\n%s|____/ \__,_|_| |_| |_| .__/\n                      |_|
-"""%(H,H,P,P))
+___logo___ = ("""%s ┏━━┓                        ┏┓┏━┓┏━┓┏┓╋┏┓\n%s┃┏┓┃                      ┏┛┗┫┃┗┛┃┃┃┃┏┛┗┓\n%s┃┗┛┗┳━━┳━┓┏━━┳━━┳━┻┓┏┫┏┓┏┓┣┫┃┣┓┏╋━━┳━┓\n%s┃┏━┓┃┏┓┃┏┓┫┏┓┃━━┫┏┓┃┃┃┃┃┃┃┣┫┃┣┫┃┃┏┓┃┏┓┓\n%s┃┗━┛┃┏┓┃┃┃┃┗┛┣━━┃┏┓┃┗┫┃┃┃┃┃┃┗┫┃┗┫┏┓┃┃┃┃\n%s┗━━━┻┛┗┻┛┗┻━┓┣━━┻┛┗┻━┻┛┗┛┗┻┻━┻┻━┻┛┗┻┛┗┛\n%s                ┏━┛┃\n                ┗━━┛"""%(H,H,P,P))
 
 # Penampung
 loop = 0
