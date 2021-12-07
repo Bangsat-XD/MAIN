@@ -52,10 +52,10 @@ cp = []
 def ___login___():
     os.system('clear')
     print(___logo___)
-    print("%s[%s1%s]%s Login Pakai Token"%(B,P,B,P))
-    print("%s[%s2%s]%s Login Pakai Cookie"%(B,P,B,P))
-    print("%s[%s3%s]%s Dapatkan Token Or Cookie"%(B,P,B,P))
-    print("%s[%s4%s]%s Keluar"%(K,P,K,P))
+    print("%s[%s1%s]%s◍➤ Login Pakai Token"%(B,P,B,P))
+    print("%s[%s2%s]%s◍➤ Login Pakai Cookie"%(B,P,B,P))
+    print("%s[%s3%s]%s◍➤ Dapatkan Token Or Cookie"%(B,P,B,P))
+    print("%s[%s4%s]%s◍➤ Keluar"%(K,P,K,P))
     ___login___ = raw_input("\n%s[%s?%s]%s Choose :%s "%(B,H,B,P,H))
     if ___login___ in ['1','01']:
         try:
@@ -170,19 +170,19 @@ def ___menu___():
         ___login___()
     except (ConnectionError):
         exit("%s[%s!%s]%s Koneksi Error"%(P,M,P,M))
-    print("\n%s[%s1%s]%s Dump ID Publik Masal Acak (2004-2021)"%(H,U,H,P))
-    print("%s[%s2%s]%s Dump ID Publik Masal Old (2009-2006)"%(H,U,H,P))
-    print("%s[%s3%s]%s Dump ID Publik Masal New (2020-2021)"%(H,U,H,P))
-    print("%s[%s4%s]%s Dump ID Publik Very Old (2006-2009)"%(H,U,H,P))
-    print("%s[%s5%s]%s Dump ID Follower Old (2015-2006)"%(H,U,H,P))
-    print("%s[%s6%s]%s Dump ID Follower New (2021-2020)"%(H,U,H,P))
-    print("%s[%s7%s]%s Dump ID Publik Acak (2021-2004)"%(H,U,H,P))
-    print("%s[%s8%s]%s Dump ID Publik Old (2006-2015)"%(H,U,H,P))
-    print("%s[%s9%s]%s Dump ID Publik New (2021-2020)"%(H,U,H,P))
-    print("%s[%s10%s]%s Start Crack %s[%sFast%s/%sSlow%s]"%(B,U,B,P,K,H,K,H,K))
-    print("%s[%s11%s]%s Lihat Hasil Crack"%(H,U,H,P))
-    print("%s[%s12%s]%s Laporkan Bug"%(H,U,H,P))
-    print("%s[%s13%s]%s Hapus Token"%(H,U,H,P))
+    print("\n%s[%s1%s]%s◍➤ Dump ID Publik Masal Acak (2004-2021)"%(H,U,H,P))
+    print("%s[%s2%s]%s◍➤ Dump ID Publik Masal Old (2009-2006)"%(H,U,H,P))
+    print("%s[%s3%s]%s◍➤ Dump ID Publik Masal New (2020-2021)"%(H,U,H,P))
+    print("%s[%s4%s]%s◍➤ Dump ID Publik Very Old (2006-2009)"%(H,U,H,P))
+    print("%s[%s5%s]%s◍➤ Dump ID Follower Old (2015-2006)"%(H,U,H,P))
+    print("%s[%s6%s]%s◍➤ Dump ID Follower New (2021-2020)"%(H,U,H,P))
+    print("%s[%s7%s]%s◍➤ Dump ID Publik Acak (2021-2004)"%(H,U,H,P))
+    print("%s[%s8%s]%s◍➤ Dump ID Publik Old (2006-2015)"%(H,U,H,P))
+    print("%s[%s9%s]%s◍➤ Dump ID Publik New (2021-2020)"%(H,U,H,P))
+    print("%s[%s10%s]%s◍➤ Start Crack %s[%sFast%s/%sSlow%s]"%(B,U,B,P,K,H,K,H,K))
+    print("%s[%s11%s]%s◍➤ Lihat Hasil Crack"%(H,U,H,P))
+    print("%s[%s12%s]%s◍➤ Laporkan Bug"%(H,U,H,P))
+    print("%s[%s13%s]%s◍➤ Hapus Token"%(H,U,H,P))
     ___menu___ = raw_input("\n%s[%s?%s]%s Choose :%s "%(B,H,B,P,K))
     if ___menu___ in ['1','01']:
         ___masal___()
@@ -230,8 +230,8 @@ def ___menu___():
         else:
             exit("%s[%s!%s]%s Wrong Input"%(P,M,P,M))
     elif ___menu___ in ['12']:
-        print("%s[%s*%s]%s Anda Akan Diarahkan Ke Whatsapp"%(B,P,B,P));sleep(2)
-        os.system("xdg-open https://wa.me/6285727173376?text=Hallo%20Bang%20Rozhak")
+        print("%s[%s*%s]%s Anda Akan Diarahkan Ke Facebook"%(B,P,B,P));sleep(2)
+        os.system("xdg-open https://m.facebook.com/PEMUDA.KALEUM")
         exit()
     elif ___menu___ in ['13']:
         os.system('rm -rf login.txt')
