@@ -244,8 +244,8 @@ def crack():
 					ra_pw.append(ss+"123")
 					ra_pw.append(ss+"1234")
 					ra_pw.append(ss+"12345")
-                    ra_pw.append(ss+"bismillah")
-                    ra_pw.append(ss+"sayang")
+                                        ra_pw.append(ss+"bismillah")
+                                        ra_pw.append(ss+"sayang")
 				else:
 					ra_pw.append("000786")
 					ra_pw.append("786786")
