@@ -51,7 +51,7 @@ except ConnectionError:
 	jalan('\n [!] Check Your Internet Connection !\n ');time.sleep(1)
 
 	
-garis = '''\x1b[1;92m_______________________________________________________\x1b[1;97m
+aa_raka = '''\x1b[1;92m_______________________________________________________\x1b[1;97m
 '''
 	
 def jalan(z):
@@ -220,10 +220,10 @@ def crack():
 		name = i['name']
 		id.append(rax_x+'<=>'+name)
 	print("\x1b[1;97m[\x1b[1;96m-\x1b[1;97m] Total ID  : \x1b[1;92m"+str(len(id)))
-	print(garis)
+	print(aa_raka)
 	print("\x1b[1;97mKlick \x1b[1;92mCTRL+Z \x1b[1;97mUntuk Berhenti ...")
         print("\x1b[1;92mNOTE\x1b[1;97m : Jika Tak Ada Hasil Mainkan Mode Pesawat \x1b[1;92m1 \x1b[1;97mDetik...?")
-	print(garis)
+	print(aa_raka)
 
 	def main(user):
 		global loop, token
